@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\ApiBilanClubDegre\\ApiBilanClubDegre.csproj": {}
+    "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\apibilanclubdegre\\ApiBilanClubDegre.csproj": {}
   },
   "projects": {
-    "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\ApiBilanClubDegre\\ApiBilanClubDegre.csproj": {
+    "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\apibilanclubdegre\\ApiBilanClubDegre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\ApiBilanClubDegre\\ApiBilanClubDegre.csproj",
+        "projectUniqueName": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\apibilanclubdegre\\ApiBilanClubDegre.csproj",
         "projectName": "ApiBilanClubDegre",
-        "projectPath": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\ApiBilanClubDegre\\ApiBilanClubDegre.csproj",
+        "projectPath": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\apibilanclubdegre\\ApiBilanClubDegre.csproj",
         "packagesPath": "C:\\Users\\juvet\\.nuget\\packages\\",
-        "outputPath": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\ApiBilanClubDegre\\obj\\",
+        "outputPath": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\apibilanclubdegre\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,13 +44,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.1, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[1.0.1, )"
             }
           },
           "imports": [
