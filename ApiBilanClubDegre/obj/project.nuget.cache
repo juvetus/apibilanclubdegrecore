@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PAZ/PGaLhsyPZhIGianNjt31NLR/4+m0Sqke2glBmDRFt8N7WWMQwuxrQ8LoefR+UYnWrj0KmJESwddY6bbN3w==",
+  "dgSpecHash": "HX9X3FB97xHYunZpsqkaV+dDJp8alpsjwW+Ks8FrHBJETYpqia+FZ5WvPIHcGkfk1Wf3bWn4GMpw+R+EF0UjOg==",
   "success": true,
   "projectFilePath": "E:\\EFREI-M2\\Angular-project\\SuperHero-full-stack\\ApiBilanClubDegre\\ApiBilanClubDegre\\ApiBilanClubDegre.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,8 @@
     "C:\\Users\\juvet\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\juvet\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\juvet\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\juvet\\.nuget\\packages\\npgsql\\7.0.1\\npgsql.7.0.1.nupkg.sha512",
+    "C:\\Users\\juvet\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.1\\npgsql.entityframeworkcore.postgresql.7.0.1.nupkg.sha512",
     "C:\\Users\\juvet\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\juvet\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\juvet\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
