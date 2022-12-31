@@ -9,7 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<DataContext>(options =>
 {
 
+
     options.UseNpgsql(builder.Configuration.GetConnectionString("defaultConnection"));
+
 
 });
 
