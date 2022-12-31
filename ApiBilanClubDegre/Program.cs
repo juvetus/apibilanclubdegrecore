@@ -8,7 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DataContext>(options =>
 {
+
     options.UseNpgsql(builder.Configuration.GetConnectionString("defaultConnection"));
+
 });
 
 builder.Services.AddCors(options => options.AddPolicy("Cors", policy =>
